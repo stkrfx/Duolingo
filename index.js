@@ -1,8 +1,16 @@
-import {AppRegistry} from 'react-native';
+import {AppRegistry, StatusBar} from 'react-native';
 import {name as appName} from './app.json';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import {Duolingo} from './src/constants/credentials';
+import theme from './src/constants/theme';
+import {NavigationContainer} from '@react-navigation/native';
+import Onboarding from './src/screens/Onboarding';
+import Chats from './src/screens/Chats';
+import New from './src/screens/New';
+import Chat from './src/screens/Chat';
+import Splash from './src/screens/Splash';
 
 const Stack = createNativeStackNavigator();
 
