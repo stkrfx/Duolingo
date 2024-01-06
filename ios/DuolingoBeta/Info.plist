@@ -51,6 +51,8 @@
 	<array>
 		<string>Primary.ttf</string>
 		<string>Secondary.ttf</string>
+		<string>Tertiary.ttf</string>
+		<string>SecondaryBold.ttf</string>
 	</array>
 </dict>
 </plist>

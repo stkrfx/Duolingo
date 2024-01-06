@@ -11,12 +11,13 @@ import Chats from './src/screens/Chats';
 import New from './src/screens/New';
 import Chat from './src/screens/Chat';
 import Splash from './src/screens/Splash';
+import Login from './src/screens/Login';
 
 const Stack = createNativeStackNavigator();
 
 const App = () => {
   const [user, setUser] = React.useState();
-  const [loaded, setLoaded] = React.useState();
+  const [loaded, setLoaded] = React.useState(true);
 
   return (
     <GestureHandlerRootView style={{flex: 1}}>
@@ -33,9 +34,15 @@ const App = () => {
                 freezeOnBlur: true,
               }}>
               <Stack.Screen name="onboarding" component={Onboarding} />
-              <Stack.Screen name="chats" component={Chats} />
-              <Stack.Screen name="new" component={New} />
-              <Stack.Screen name="chat" component={Chat} />
+              {user ? (
+                <>
+                  <Stack.Screen name="chats" component={Chats} />
+                  <Stack.Screen name="new" component={New} />
+                  <Stack.Screen name="chat" component={Chat} />
+                </>
+              ) : (
+                <Stack.Screen name="login" component={Login} />
+              )}
             </Stack.Navigator>
           </NavigationContainer>
         ) : (

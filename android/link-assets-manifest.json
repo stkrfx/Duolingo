@@ -8,6 +8,14 @@
     {
       "path": "src/assets/fonts/Secondary.ttf",
       "sha1": "51cc749fff9205d1a8d493581a5a7c763852dbc3"
+    },
+    {
+      "path": "src/assets/fonts/SecondaryBold.ttf",
+      "sha1": "5698731a0517bbed2d32c27bce0dcb6c1a208040"
+    },
+    {
+      "path": "src/assets/fonts/Tertiary.ttf",
+      "sha1": "c2adb9c3bcb684afc16cab5e70e8da3d3700a91e"
     }
   ]
 }

@@ -16,6 +16,8 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		5AD5847C0BF34BEBB0190C58 /* Primary.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C131BE491934E0EB57F6817 /* Primary.ttf */; };
 		4BCB864074C74F44B66F9D95 /* Secondary.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3E0995AC090446994036556 /* Secondary.ttf */; };
+		A749689A4F494AF7903AB3BD /* Tertiary.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8EFDBA4446C4409A1DFE0A5 /* Tertiary.ttf */; };
+		A5610F8DD6A24FF783113A74 /* SecondaryBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8A7744BF9A448A8FABDDC0 /* SecondaryBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		3C131BE491934E0EB57F6817 /* Primary.ttf */ = {isa = PBXFileReference; name = "Primary.ttf"; path = "../src/assets/fonts/Primary.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B3E0995AC090446994036556 /* Secondary.ttf */ = {isa = PBXFileReference; name = "Secondary.ttf"; path = "../src/assets/fonts/Secondary.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8EFDBA4446C4409A1DFE0A5 /* Tertiary.ttf */ = {isa = PBXFileReference; name = "Tertiary.ttf"; path = "../src/assets/fonts/Tertiary.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E8A7744BF9A448A8FABDDC0 /* SecondaryBold.ttf */ = {isa = PBXFileReference; name = "SecondaryBold.ttf"; path = "../src/assets/fonts/SecondaryBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 			children = (
 				3C131BE491934E0EB57F6817 /* Primary.ttf */,
 				B3E0995AC090446994036556 /* Secondary.ttf */,
+				B8EFDBA4446C4409A1DFE0A5 /* Tertiary.ttf */,
+				3E8A7744BF9A448A8FABDDC0 /* SecondaryBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				5AD5847C0BF34BEBB0190C58 /* Primary.ttf in Resources */,
 				4BCB864074C74F44B66F9D95 /* Secondary.ttf in Resources */,
+				A749689A4F494AF7903AB3BD /* Tertiary.ttf in Resources */,
+				A5610F8DD6A24FF783113A74 /* SecondaryBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

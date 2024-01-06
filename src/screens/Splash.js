@@ -1,5 +1,5 @@
-import {View, Text, StatusBar} from 'react-native';
 import React from 'react';
+import {View, StatusBar, Image} from 'react-native';
 
 const Splash = () => {
   return (
@@ -8,10 +8,14 @@ const Splash = () => {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: theme.backgrounds.tertiary,
+        backgroundColor: theme.backgrounds.splash,
       }}>
-      <StatusBar backgroundColor={theme.backgrounds.tertiary} />
-      <Text style={{color: theme.colors.tertiary}}>duolingo</Text>
+      <StatusBar
+        translucent
+        barStyle={theme.colors.splash}
+        backgroundColor={theme.backgrounds.splash}
+      />
+      <Image source={theme.images.splash} style={{width: 136, height: 136}} />
     </View>
   );
 };
